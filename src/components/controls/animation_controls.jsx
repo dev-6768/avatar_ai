@@ -1,31 +1,3 @@
-// import { AnimationStates } from "../animations/animation_states";
-
-// export default function AnimationControls({ onPlay }) {
-//   return (
-//     <div
-//       style={{
-//         position: "absolute",
-//         bottom: 20,
-//         left: "50%",
-//         transform: "translateX(-50%)",
-//         display: "flex",
-//         gap: "12px",
-//       }}
-//     >
-//       {Object.values(AnimationStates)
-//         .filter((a) => !a.isDefault)
-//         .map((anim) => (
-//           <button
-//             key={anim.name}
-//             onClick={() => onPlay(anim.name)}
-//           >
-//             {anim.label}
-//           </button>
-//         ))}
-//     </div>
-//   );
-// }
-
 import { AnimationStates } from "../animations/animation_states";
 
 export default function AnimationControls({ onPlay, isMobile }) {

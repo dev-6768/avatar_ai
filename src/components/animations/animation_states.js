@@ -64,5 +64,12 @@ export const AnimationStates = {
     file: "/remy_animations/remy_wave.fbx",
     loop: THREE.LoopOnce,
   },
+
+  think: {
+    name: "think",
+    label: "Think 👋",
+    file: "/remy_animations/remy_thinking.fbx",
+    loop: THREE.LoopRepeat,
+  },
   // 👉 Add new animations here only
 };
